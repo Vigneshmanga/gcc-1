@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.home-mobile {
+    background-image: url("https://i.pinimg.com/originals/42/4e/55/424e557aa78e727cab463eae09b4df35.jpg");
+    background-size: cover;
+    height: 95vh;
+}
+
+.link-font-color {
+    color: #ad5b00;
+}
+
+.logInHeading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 16px;
+    text-align: center;
+}
+
+.log-in-page-bg-container {
+    background-image: url("https://s40424.pcdn.co/in/wp-content/uploads/2022/07/data-science-courses1.jpg");
+    background-size: cover;
+    height: 97vh;
+    display: grid;
+    place-items: center;
+}
+
+.log-in-bg {
+    position: relative;
+    background-color: transparent;
+    border-radius: 50px;
+    height: 300px;
+    width: 310px;
+    z-index: 0;
+}
+
+.log-in-bg:before {
+    content: "";
+    background: rgba(0, 0, 0, .7);
+    border-radius: 50px;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    z-index: -1;
+}
+
+.data-science-word {
+    font-size: 22px;
+    color: #ad5b00;
+    font-weight: 600;
+}
+
+.transparncive-background-mobile {
+    align-content: center;
+    position: relative;
+    background-color: transparent;
+    border: 5px solid #193562;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    height: 290px;
+    width: 290px;
+    z-index: 0;
+}
+
+.transparncive-background-mobile:before {
+    content: "";
+    background: rgba(0, 0, 0, .7);
+    position: absolute;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    height: 290px;
+    width: 280px;
+    z-index: -1;
+}
+
+.mobile-log-in-btn {
+    border-width: 0px;
+    background-color: #ad5b00;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.home-logo {
+    height: 200px;
+    width: 300px;
+}
+
+.input-box {
+    height: 40px;
+    border-radius: 10px;
+    border-color: #3daa83;
+    color: #3daa83;
+    background-color: transparent;
+    width: 260px;
+    margin: auto;
+    padding-left: 10px;
+}
+
+.greenColor {
+    color: #3daa83;
+}
+
+.eye-emoji {
+    color: #3daa83;
+    margin-left: 5px;
+}
+
+.logInBtn-container {
+    width: 300px;
+}
+
+.log-in-Btn {
+    height: 37px;
+    width: 70px;
+    color: #3daa83;
+    border-color: #3daa83;
+    border-radius: 10px;
+    background-color: transparent;
+    margin-right: auto;
+}
+
+#sectiondsSem1 {
+    background-image: url("https://img.freepik.com/premium-photo/blank-flyer-template-corporate-background-is-empty-3d-rendering_573921-422.jpg?w=2000");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-attachment: fixed;
+}
+
+.classroom-bg-container {
+    background-image: url("https://img.freepik.com/premium-photo/3d-rendered-texture-square-shapes-different-heights_44074-3956.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 97vw;
+    padding-top: 15px;
+    color: white;
+}
+
+.content-bg {
+    background-image: url("https://res.cloudinary.com/wrongkiller/image/upload/v1661090879/logos/2121_t7satt.webp");
+    background-size: cover;
+    height: 100vh;
+}
+
+.semester-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 25px;
+    margin-top: 40px;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    width: 80vw;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content-heading {
+    color: #86c232;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+.content-matter {
+    color: #474b4f;
+}
+
+.errormsg {
+    color: red;
+    font-family: "Roboto";
+    font-size: 12px;
+    text-align: center;
+}
+
+.college-image {
+    height: 96vh;
+    background-image: url("https://res.cloudinary.com/wrongkiller/image/upload/v1662830000/imgonline-com-ua-blur-1QmTjAiVpwx_fzbaz2.jpg");
+    background-size: cover;
+}
+
+.college-next-button {
+    height: 45px;
+    width: 120px;
+    background-color: white;
+    margin: auto;
+    color: darkgreen;
+}
+
+.card-container {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: white;
+    height: 15vh;
+}
+
+.contentstrip {
+    background-color: #071d31;
+    height: 100vh;
+    border-right-style: solid;
+    border-right-width: 1px;
+    padding: 5px;
+}
+
+.title-bg {
+    background-color: #071d31;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-width: 1px;
+}
+
+.top-head {
+    height: 100px;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    border-bottom-width: 1px;
+}
+
+.telangana-logo {
+    height: 80px;
+    margin-top: 10px;
+}
+
+.city-colloge-logo {
+    height: 80px;
+    margin-top: 10px;
+    border-radius: 40px
+}
+
+.semesterel-design {
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    margin: 5px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 38px;
+    text-align: center;
+    padding: 8px;
+    background-color: #053837;
+}
+
+
+.ds-image {
+    width: 60vw;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.semanchor {
+    display: grid;
+    padding: 10px;
+    padding-left: 5px;
+    background-color: transparent;
+    border: black solid 1px;
+    place-items: left;
+    color: #d8e3ed;
+}
+
+.mobileview-header {
+    width: 100vw;
+    height: 30px;
+    background-color: #171b47;
+}
+
+.mobileview-nav-strip {
+    background-color: transparent;
+    height: 60px;
+
+}
+
+.mobileview-anchor {
+    display: inline-block;
+    padding: 5px;
+    font-size: 14px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 6px;
+}
+
+.introduction-style {
+    background-color: #d1c3d6;
+    color: #7a0a66;
+    border-color: #7a0a66;
+}
+
+.classroom-activities-style {
+    background-color: #e1c1c9;
+    color: #cd3333;
+    border-color: #cd3333;
+}
+
+.semester1-style {
+    background-color: #bfe0d7;
+    color: #0d5240;
+    border-color: #0d5240;
+}
+
+.semester2-style {
+    background-color: #bfd3e0;
+    color: #037382;
+    border-color: #037382;
+}
+
+.semester3-style {
+    background-color: #dee0bf;
+    color: #62630d;
+    border-color: #62630d;
+}
+
+.semester4-style {
+    background-color: #bfe0bf;
+    color: #073e09;
+    border-color: #073e09;
+}
+
+.semester5-style {
+    background-color: #c1c1fc;
+    color: #0e0844;
+    border-color: #0e0844;
+}
+
+.semester6-style {
+    background-color: #b2e7c9;
+    color: #094322;
+    border-color: #094322;
+}
+
+.projects-style {
+    background-color: #ebc7ea;
+    color: #441042;
+    border-color: #441042;
+}
+
+.contactUs-style {
+    background-color: #c6c7e4;
+    color: #2c2d58;
+    border-color: #2c2d58;
+}
+
+.document-anchor-style {
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    align-content: center;
+    padding: 5px;
+    border-radius: 8px;
+    font-family: "Sans-Serif";
+    font-size: 17px;
+    background-color: #071d31;
+    color: #ffffff;
+    width: 100px;
+    text-align: center;
+}
+
+.bg-contactUs {
+    background-color: #2a4a4a;
+    color: #a9d3d3;
+}
+
+.carouselsizelarge {
+    width: 10vw;
+}
+
+.carouselsizemobile {
+    width: 95vw;
+}
